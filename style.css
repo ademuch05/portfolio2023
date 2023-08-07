@@ -1,0 +1,163 @@
+root {
+  --greem: #01c38d;
+  --shadow: 0 2px 2px rgb(0 0 0 / 0.5);
+}
+
+/* BODY */
+body {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  background-color: #091724;
+}
+
+/* NAVBAR */
+
+nav {
+  transition: 0.5s ease-in-out;
+}
+.scrolled {
+  background-color: rgba(9, 185, 147, 0.9);
+}
+
+.navbar-nav .nav-link {
+  color: white;
+  margin-right: 15px;
+  text-transform: uppercase;
+}
+.navbar-nav .nav-link:hover {
+  color: #01c38d;
+}
+
+.navbar-brand {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 2rem;
+  color: white;
+}
+.navbar-brand:hover {
+  color: #01c38d;
+}
+.navbar .offcanvas-title {
+  color: rgb(0, 0, 0);
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 2rem;
+}
+
+/* JUMBOTRON */
+.jumbotron {
+  background-image: url(img/hero2.png);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.jumbotron img {
+  width: 300px;
+  border-radius: 50%;
+}
+
+.jumbotron .display-5 {
+  color: #f1b419;
+}
+.jumbotron .btn {
+  background-color: #01c38d;
+}
+
+/* ABOUT */
+.about {
+  height: 500px;
+  padding: 0 5rem;
+  box-sizing: border-box;
+  background-color: #132d46;
+}
+
+/* CONTENT */
+.content {
+  position: relative;
+  top: -200px;
+}
+
+/* SERVICES */
+.services {
+  background-color: #10141b;
+  border-radius: 30px;
+}
+
+.services h5 {
+  color: #01c38d;
+}
+.services .col-md-5 {
+  border: 3px solid #01c38d;
+  border-radius: 30px;
+}
+
+/* WORKS */
+.works .col .card {
+  background-color: rgba(0, 0, 0, 0);
+  border: hidden;
+}
+.card .card-body h5 {
+  color: #01c38d;
+}
+.card .card-body p {
+  color: white;
+}
+.card .bg {
+  background-color: #132d46;
+  border-radius: 20px;
+}
+.card .bg img {
+  padding: 2.5rem 1.5rem;
+}
+
+/* FOOTER */
+footer {
+  background-color: #132d46;
+}
+.foot {
+  padding: 1rem 0 1rem;
+  color: white;
+}
+.foot h1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 2.5rem;
+  text-decoration: none;
+  margin-right: 1.5rem;
+}
+.foot .bi {
+  margin-left: 1rem;
+}
+.clr {
+  color: #01c38d;
+}
+@media (max-width: 575.98px) {
+  .body {
+    font-size: 75%;
+  }
+  .navbar-nav .nav-link {
+    color: rgb(0, 0, 0);
+  }
+  .jumbotron img {
+    width: 65%;
+  }
+  .content {
+    top: -100px;
+  }
+  .about {
+    padding: 0 2rem;
+    box-sizing: border-box;
+  }
+
+  .works .row {
+    overflow-x: scroll;
+  }
+  .foot h1 {
+    font-size: 1.7rem;
+    margin: 0 0.5rem 0 1rem;
+  }
+  .foot p {
+    font-size: 0.7rem;
+  }
+  .foot h3 {
+    margin: 0 1rem 0 0;
+  }
+}
