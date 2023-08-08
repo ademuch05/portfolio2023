@@ -61,6 +61,16 @@ nav {
 .jumbotron .btn {
   background-color: #01c38d;
 }
+.jumbotron p {
+  font-size: 1.3rem;
+}
+.jumbotron .bi {
+  font-size: 0.6rem;
+  margin-right: 0.5rem;
+}
+.jumbotron .mg {
+  margin-left: 2rem;
+}
 
 /* ABOUT */
 .about {
@@ -114,8 +124,8 @@ footer {
   background-color: #132d46;
 }
 .foot {
-  padding: 1rem 0 1rem;
-  color: white;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 .foot h1 {
   font-family: "Josefin Sans", sans-serif;
@@ -125,6 +135,7 @@ footer {
 }
 .foot .bi {
   margin-left: 1rem;
+  font-size: 1.7rem;
 }
 .clr {
   color: #01c38d;
@@ -139,6 +150,9 @@ footer {
   .jumbotron img {
     width: 65%;
   }
+  .jumbotron p {
+    font-size: 1rem;
+  }
   .content {
     top: -100px;
   }
@@ -146,18 +160,15 @@ footer {
     padding: 0 2rem;
     box-sizing: border-box;
   }
-
-  .works .row {
-    overflow-x: scroll;
-  }
   .foot h1 {
-    font-size: 1.7rem;
-    margin: 0 0.5rem 0 1rem;
+    font-size: 1.5rem;
+    margin-right: 0.7rem;
   }
   .foot p {
-    font-size: 0.7rem;
+    font-size: 60%;
   }
-  .foot h3 {
-    margin: 0 1rem 0 0;
+  .foot .bi {
+    margin-left: 0.5rem;
+    font-size: 1rem;
   }
 }
