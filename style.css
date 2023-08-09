@@ -118,6 +118,10 @@ nav {
 .card .bg img {
   padding: 2.5rem 1.5rem;
 }
+/* CONTACT */
+#contact .mb {
+  margin-bottom: 7rem;
+}
 
 /* FOOTER */
 footer {
@@ -159,6 +163,10 @@ footer {
   .about {
     padding: 0 2rem;
     box-sizing: border-box;
+  }
+  .contact .haha {
+    display: flex;
+    margin: auto;
   }
   .foot h1 {
     font-size: 1.5rem;
